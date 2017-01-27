@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  geometry_msgs
   tf
 )
 
@@ -115,7 +116,6 @@ catkin_package(
 ## Your package locations should be listed before other locations
 # include_directories(include)
 #include_directories(${catkin_INCLUDE_DIRS})
-include_directories(/opt/ros/kinetic/include)
 include_directories(/opt/ros/kinetic/include)
 
 ## Declare a C++ library
