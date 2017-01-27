@@ -9,7 +9,6 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   tf
-  sound_play
 )
 
 ## System dependencies are found with CMake's conventions
@@ -117,6 +116,7 @@ catkin_package(
 # include_directories(include)
 #include_directories(${catkin_INCLUDE_DIRS})
 include_directories(/opt/ros/kinetic/include)
+include_directories(/opt/ros/kinetic/include)
 
 ## Declare a C++ library
 # add_library(gaitech
@@ -153,18 +153,15 @@ add_executable(listener_node src/ros_basics/talker_listener/listener.cpp)
 target_link_libraries (listener_node ${catkin_LIBRARIES})
 #add_dependencies(talker gaitech_doc_generate_message_cpp)
 
-add_executable(voice_teleop_node src/turtlebot/voice_teleop/voice_teleop.cpp)
-target_link_libraries(voice_teleop_node ${catkin_LIBRARIES})
-
-#add_executable(joy_teleop src/turtlebot/voice_teleop/joy_teleop.cpp)
-#target_link_libraries(joy_teleop ${catkin_LIBRARIES})
-
+#free space navigation
 add_executable(free_space_navigation_node src/turtlebot/navigation/free_space_navigation/free_space_navigation.cpp)
 target_link_libraries(free_space_navigation_node ${catkin_LIBRARIES})
 
+# map navigation
 add_executable(map_navigation_node src/turtlebot/navigation/map_navigation/map_navigation.cpp)
 target_link_libraries(map_navigation_node ${catkin_LIBRARIES})
 
+# robot cleaner
 add_executable(robot_cleaner_node src/turtlesim/cleaning_app/robot_cleaner.cpp)
 target_link_libraries(robot_cleaner_node ${catkin_LIBRARIES})
 
