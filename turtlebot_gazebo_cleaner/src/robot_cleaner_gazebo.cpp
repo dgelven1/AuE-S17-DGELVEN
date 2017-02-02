@@ -25,15 +25,6 @@ int main(int argc, char **argv)
 
 	velocity_publisher = n.advertise<geometry_msgs::Twist>("/cmd_vel_mux/input/teleop", 10);
 	ros::Rate loop_rate(10.0);
-	// double i = 1;
-
-	// do{
-	// 	move(0.5,10,true);
-	// 	loop_rate.sleep();
-	// }
-	// while(i <10);
-
-	// move(2,100, false);
 
 	 gridClean();
 	
@@ -114,26 +105,27 @@ void gridClean()
 	ros::Rate loop_rate(10.0);
 	double i = 1;
 	loop_rate.sleep();
+	rotate(degrees2radians(5),degrees2radians(5),false);
+	loop_rate.sleep();
 
 	do{
-	move(0.75,9, true);
+	move(0.3,9, true);
 	ros::Duration(1.5).sleep();
-	//cout<<"end first move command"<<endl;
-	rotate(degrees2radians(10), degrees2radians(90), false);
+	rotate(degrees2radians(10), degrees2radians(95), false);
 	ros::Duration(1.5).sleep();
-	move(1,0.5,true);
+	move(0.3,01,true);
 	ros::Duration(1.5).sleep();
-	rotate(degrees2radians(10), degrees2radians(90), false);	
+	rotate(degrees2radians(10), degrees2radians(95), false);	
 	ros::Duration(1.5).sleep();
-	move(0.75,9,true);
+	move(0.3,9,true);
 	ros::Duration(1.5).sleep();
-	rotate(degrees2radians(10), degrees2radians(90), true);
+	rotate(degrees2radians(10), degrees2radians(80), true);
 	ros::Duration(1.5).sleep();
-	move(1,0.5,true);
+	move(0.3,1,true);
 	ros::Duration(1.5).sleep();
-	rotate(degrees2radians(10), degrees2radians(90), true);
+	rotate(degrees2radians(10), degrees2radians(80), true);
 	ros::Duration(1.5).sleep();
-	//ros::spinOnce();
+
 
 
 	i++;
@@ -141,7 +133,7 @@ void gridClean()
 	cout<<" iteration of i: ";
 	cout<< i << endl;
 
-	}while(i< 8 );
+	}while(i< 5 );
 	vel_msg.linear.x =0;
 	vel_msg.angular.z = 0;
 	velocity_publisher.publish(vel_msg);
