@@ -1,2 +1,0 @@
-beginner_tutorials:gaitech_ros_kinetic-master/gaitech:location_monitor_node:mybot_pid:odom_pub_node:pid_chase:robot_setup_tf:turtlebot_gazebo_cleaner:turtlebot_moveGoal:turtlebot_sort_laserscan:turtlesim_cleaner
--DCATKIN_DEVEL_PREFIX=/home/dylan/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dylan/catkin_ws/install -G Unix Makefiles

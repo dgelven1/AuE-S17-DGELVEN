@@ -1,8 +1,0 @@
-prefix=/home/dylan/catkin_ws/devel
-
-Name: odom_pub_node
-Description: Description of odom_pub_node
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/dylan/catkin_ws/devel/lib 
-Requires: 

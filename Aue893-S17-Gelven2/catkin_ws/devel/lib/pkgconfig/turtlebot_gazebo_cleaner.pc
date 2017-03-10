@@ -1,8 +1,0 @@
-prefix=/home/dylan/catkin_ws/devel
-
-Name: turtlebot_gazebo_cleaner
-Description: Description of turtlebot_gazebo_cleaner
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/dylan/catkin_ws/devel/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/dylan/catkin_ws/install
-
-Name: turtlebot_moveGoal
-Description: Description of turtlebot_moveGoal
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/dylan/catkin_ws/install/lib 
-Requires: 
