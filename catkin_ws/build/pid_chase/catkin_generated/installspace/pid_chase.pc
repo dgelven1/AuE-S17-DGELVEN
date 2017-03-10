@@ -1,0 +1,8 @@
+prefix=/home/dylan/catkin_ws/install
+
+Name: pid_chase
+Description: Description of pid_chase
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/dylan/catkin_ws/install/lib 
+Requires: 
