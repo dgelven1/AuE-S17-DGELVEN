@@ -1,0 +1,8 @@
+prefix=/home/dylan/catkin_ws/devel
+
+Name: turtlebot_sort_laserscan
+Description: Description of turtlebot_sort_laserscan
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/dylan/catkin_ws/devel/lib 
+Requires: 
