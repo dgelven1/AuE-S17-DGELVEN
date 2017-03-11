@@ -1,0 +1,4 @@
+Assignment 3: The bump sensor did not work on my ROS kinetic system. 
+
+The obstacle avoidance code can be found in the turtlebot_moveGoal directory
+
