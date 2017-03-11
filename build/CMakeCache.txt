@@ -335,28 +335,34 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 
 //Value Computed by CMake
-mybot_control_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/mybot_ws/src/mybot_control
+mybot_control_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control
 
 //Value Computed by CMake
-mybot_control_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/mybot_ws/src/mybot_control
+mybot_control_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/Assignment 4/mybot_ws-master/src/mybot_control
 
 //Value Computed by CMake
-mybot_description_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/mybot_ws/src/mybot_description
+mybot_description_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_description
 
 //Value Computed by CMake
-mybot_description_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/mybot_ws/src/mybot_description
+mybot_description_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/Assignment 4/mybot_ws-master/src/mybot_description
 
 //Value Computed by CMake
-mybot_gazebo_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/mybot_ws/src/mybot_gazebo
+mybot_gazebo_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_gazebo
 
 //Value Computed by CMake
-mybot_gazebo_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/mybot_ws/src/mybot_gazebo
+mybot_gazebo_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/Assignment 4/mybot_ws-master/src/mybot_gazebo
 
 //Value Computed by CMake
-mybot_pid_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/mybot_pid
+mybot_navigation_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_navigation
 
 //Value Computed by CMake
-mybot_pid_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/mybot_pid
+mybot_navigation_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/Assignment 4/mybot_ws-master/src/mybot_navigation
+
+//Value Computed by CMake
+mybot_pid_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/Assignment 4/mybot_pid
+
+//Value Computed by CMake
+mybot_pid_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/Assignment 4/mybot_pid
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
@@ -425,10 +431,10 @@ tf2_ros_DIR:PATH=/opt/ros/kinetic/share/tf2_ros/cmake
 tf_DIR:PATH=/opt/ros/kinetic/share/tf/cmake
 
 //Value Computed by CMake
-turtlebot_gazebo_cleaner_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner
+turtlebot_gazebo_cleaner_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner
 
 //Value Computed by CMake
-turtlebot_gazebo_cleaner_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/turtlebot_gazebo_cleaner
+turtlebot_gazebo_cleaner_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/Assignment 1/turtlebot_gazebo_cleaner
 
 //Value Computed by CMake
 turtlebot_moveGoal_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/turtlebot_moveGoal
@@ -553,7 +559,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -19,6 +19,35 @@
 /home/dylan/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
 /home/dylan/catkin_ws/build/gtest/CMakeFiles/install/strip.dir
 /home/dylan/catkin_ws/build/gtest/CMakeFiles/install/local.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control/CMakeFiles/rebuild_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control/CMakeFiles/edit_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control/CMakeFiles/list_install_components.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control/CMakeFiles/install.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control/CMakeFiles/_catkin_empty_exported_target.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control/CMakeFiles/install/local.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control/CMakeFiles/install/strip.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_control/CMakeFiles/test.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_description/CMakeFiles/list_install_components.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_description/CMakeFiles/install.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_description/CMakeFiles/rebuild_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_description/CMakeFiles/install/strip.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_description/CMakeFiles/install/local.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_description/CMakeFiles/test.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_description/CMakeFiles/edit_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_gazebo/CMakeFiles/list_install_components.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_gazebo/CMakeFiles/install.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_gazebo/CMakeFiles/rebuild_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_gazebo/CMakeFiles/install/strip.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_gazebo/CMakeFiles/install/local.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_gazebo/CMakeFiles/test.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_gazebo/CMakeFiles/edit_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_navigation/CMakeFiles/list_install_components.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_navigation/CMakeFiles/install.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_navigation/CMakeFiles/rebuild_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_navigation/CMakeFiles/install/strip.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_navigation/CMakeFiles/install/local.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_navigation/CMakeFiles/test.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_ws-master/src/mybot_navigation/CMakeFiles/edit_cache.dir
 /home/dylan/catkin_ws/build/beginner_tutorials/CMakeFiles/list_install_components.dir
 /home/dylan/catkin_ws/build/beginner_tutorials/CMakeFiles/install.dir
 /home/dylan/catkin_ws/build/beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir
@@ -53,20 +82,19 @@
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_generate_messages_nodejs.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_genlisp.dir
+/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/actionlib_msgs_generate_messages_eus.dir
-/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_geneus.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/install/local.dir
-/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/_catkin_empty_exported_target.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/nav_msgs_generate_messages_py.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/nav_msgs_generate_messages_eus.dir
-/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_gennodejs.dir
-/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_generate_messages_lisp.dir
-/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/geometry_msgs_generate_messages_py.dir
-/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir
+/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/actionlib_msgs_generate_messages_eus.dir
+/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_geneus.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/nav_msgs_generate_messages_cpp.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir
+/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_gennodejs.dir
+/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/geometry_msgs_generate_messages_py.dir
+/home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_generate_messages_lisp.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/nav_msgs_generate_messages_nodejs.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_generate_messages.dir
@@ -79,19 +107,19 @@
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/actionlib_msgs_generate_messages_py.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_generate_messages_cpp.dir
 /home/dylan/catkin_ws/build/location_monitor_node/CMakeFiles/location_monitor_node_generate_messages_eus.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/install.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/rebuild_cache.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_eus.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_py.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/edit_cache.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/test.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/mybot_pid_node.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/list_install_components.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/install/strip.dir
-/home/dylan/catkin_ws/build/mybot_pid/CMakeFiles/install/local.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/install.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/rebuild_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_eus.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_py.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/edit_cache.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/test.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/mybot_pid_node.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/list_install_components.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/install/strip.dir
+/home/dylan/catkin_ws/build/Assignment 4/mybot_pid/CMakeFiles/install/local.dir
 /home/dylan/catkin_ws/build/pid_chase/CMakeFiles/list_install_components.dir
 /home/dylan/catkin_ws/build/pid_chase/CMakeFiles/install.dir
 /home/dylan/catkin_ws/build/pid_chase/CMakeFiles/rebuild_cache.dir
@@ -143,14 +171,14 @@
 /home/dylan/catkin_ws/build/robot_setup_tf/CMakeFiles/tf_listener.dir
 /home/dylan/catkin_ws/build/robot_setup_tf/CMakeFiles/install/strip.dir
 /home/dylan/catkin_ws/build/robot_setup_tf/CMakeFiles/install/local.dir
-/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner/CMakeFiles/list_install_components.dir
-/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner/CMakeFiles/install.dir
-/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner/CMakeFiles/edit_cache.dir
-/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner/CMakeFiles/rebuild_cache.dir
-/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner/CMakeFiles/turtlebot_gazebo_cleaner_node.dir
-/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner/CMakeFiles/test.dir
-/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner/CMakeFiles/install/strip.dir
-/home/dylan/catkin_ws/build/turtlebot_gazebo_cleaner/CMakeFiles/install/local.dir
+/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/CMakeFiles/list_install_components.dir
+/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/CMakeFiles/install.dir
+/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/CMakeFiles/edit_cache.dir
+/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/CMakeFiles/rebuild_cache.dir
+/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/CMakeFiles/turtlebot_gazebo_cleaner_node.dir
+/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/CMakeFiles/test.dir
+/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/CMakeFiles/install/strip.dir
+/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/CMakeFiles/install/local.dir
 /home/dylan/catkin_ws/build/turtlebot_moveGoal/CMakeFiles/list_install_components.dir
 /home/dylan/catkin_ws/build/turtlebot_moveGoal/CMakeFiles/install.dir
 /home/dylan/catkin_ws/build/turtlebot_moveGoal/CMakeFiles/rebuild_cache.dir
