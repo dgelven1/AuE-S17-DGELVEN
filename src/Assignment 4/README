@@ -1,0 +1,5 @@
+Assignment 4:
+
+I created a custom racetrack in the mybot_ws_master folder. You can run the ./run_gazebo.sh to launch the custom racetrack along with the mybot virtual avatar. 
+
+Then to run the continous racetrack code, rosrun the mybot_pid package to get the mybot moving. 
