@@ -3,3 +3,32 @@ Assignment 1
 Turtlebot cleaner Node
 
 Rosbag files found in the bagfiles directory. This directory contains 3 bag files and are named accordingly
+
+
+Assignment 1:
+
+Demo 1: Play rosbag for turtlesim cleaning.
+- For the first turtlesim cleaning bag file (Turtlesim_cleaner_cpp.bag), I ran my .cpp program and recorded all the topics and messages that were being published. In my .cpp file, code was written to program the turtlesim to create a grid cleaning process throughout the turtlesim_node "world".
+Note: when playing bag the rosbag of my .cpp file, the recorded commands do not follow the same commands as they were given by the .cpp file. I think that the moveGoal() method, containing the PID controller, is not recorded correctly by 'rosbag record'.
+
+-A second bag file for turtlesim cleaner was created, called (Turttlesim_cleaner_teleop.bag). This bag file is the rosbag recording of the turtlesim_node being controlled by the teleop node. This rosbag recording, unlike the .cpp recording, follows the exact commands that were given in the teleop node. 
+
+Demo 2: Adapt Turtlesim Cleaning Simulation to simulated Turtlebot in Gazebo
+- For this demo, I converted my .cpp file that I used for the turtlesim cleaning application, to a .cpp file that could be used in the Gazebo simulation. 
+
+- To convert the file to be used in Gazebo, I had to figure out the message type that was command the velocity of the turtlebot and which topic it was being published on. In turtlesim, the velocity message type was 'geometry_msg.Twist'. For the turtlebot simulation in gazebo, the same message type was used but it was published on a different topic. The topic in turtlesim was named, '/turtle1/cmd_vel', and for the turtlebot, the topic is named, '/cmd_vel_mux/input/teleop'. So, when publishing my velocit messages to the turtlebot, I needed to change which topic my geometry_msgs::Twist messages were being published to. 
+
+-I used a very similar gridCleaning code that was used in the turtlesim application for my turtlebot cleaning simulation in gazebo. In gazebo the turtle has a significant more amount of drift than in turtlesim. A solution to this drift was to slow down the velocity commands given to the turtlebot, both in the linear and angular commands. Also, after stopping a velocity command, the robot would not stop immediatley, and continue to have inertia for some amount of time. This inertia would result in a large amount of drift since the robot would still be rotating in the angular.z direction while a linear.x command was being published to the turtlebot. To solve this issue, I added ros::Duration.sleep(x) commands after each velocity command in my gridCleaning() loop. This allowed the turtlebot to come to a complete stop after each command, then continue on the next velocity command thus reducing the amount of drift. 
+
+-I noticed that the turtlebot simulation will always drift to the right when given a linear.x command for a long distance of time. Slowing down the linear.x command only limits the drift so much, so in order to over come the drift I increased the rotation commands in the counterclockwise direction by 5 degrees and decreased the commands in the clockwise direction by 5 degrees. This made grid patter a little more accurate by reducing the drift a little more. 
+
+Demo 3: Play Rosbag to simulated Turtlebot in Gazebo turtlebot
+- If you wanted a rosbag that was recorded in turtlesim to play in gazebo, this can be done by remapping the velocity commands. You would do this by giving the following command in the terminal window:
+	rosbag play <rosbag file> /turtle1/cmd_vel:=cmd_vel_mux/input/teleop
+- To record a rosbag of the topics and messages sent in gazebo, the same commands as were used in turtlesim apply: rosbag record -a. When using the, 'rosbag record -a' command in gazebo, the file becomes huge because you are recording every topic and message being sent including the camera topics, which make the file so big. To slove this issue, I only recorded the topic which my program or telop/keyboard was publishing to the turtlebot. 
+
+
+
+
+
+
