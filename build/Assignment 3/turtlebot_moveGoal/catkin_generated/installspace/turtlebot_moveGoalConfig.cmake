@@ -66,7 +66,7 @@ endif()
 set(turtlebot_moveGoal_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
-if("TRUE" STREQUAL "TRUE")
+if("FALSE" STREQUAL "TRUE")
   set(turtlebot_moveGoal_SOURCE_PREFIX /home/dylan/catkin_ws/src/Assignment 3/turtlebot_moveGoal)
   set(turtlebot_moveGoal_DEVEL_PREFIX /home/dylan/catkin_ws/devel)
   set(turtlebot_moveGoal_INSTALL_PREFIX "")
@@ -103,7 +103,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'turtlebot_moveGoal' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'dylan <dylan@todo.todo>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'turtlebot_moveGoal' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dylan/catkin_ws/src/Assignment 3/turtlebot_moveGoal/${idir}'.  Ask the maintainer 'dylan <dylan@todo.todo>' to fix it.")
+      message(FATAL_ERROR "Project 'turtlebot_moveGoal' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/dylan/catkin_ws/install/${idir}'.  Ask the maintainer 'dylan <dylan@todo.todo>' to fix it.")
     endif()
     _list_append_unique(turtlebot_moveGoal_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dylan/catkin_ws/devel/lib;/home/dylan/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/dylan/catkin_ws/install/lib;/home/dylan/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

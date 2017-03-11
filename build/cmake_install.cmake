@@ -129,7 +129,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/dylan/catkin_ws/build/odom_pub_node/cmake_install.cmake")
   include("/home/dylan/catkin_ws/build/robot_setup_tf/cmake_install.cmake")
   include("/home/dylan/catkin_ws/build/Assignment 1/turtlebot_gazebo_cleaner/cmake_install.cmake")
-  include("/home/dylan/catkin_ws/build/turtlebot_moveGoal/cmake_install.cmake")
+  include("/home/dylan/catkin_ws/build/Assignment 3/turtlebot_moveGoal/cmake_install.cmake")
   include("/home/dylan/catkin_ws/build/turtlebot_sort_laserscan/cmake_install.cmake")
   include("/home/dylan/catkin_ws/build/turtlesim_cleaner/cmake_install.cmake")
 

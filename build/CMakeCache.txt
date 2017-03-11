@@ -437,10 +437,10 @@ turtlebot_gazebo_cleaner_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/Assignmen
 turtlebot_gazebo_cleaner_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/Assignment 1/turtlebot_gazebo_cleaner
 
 //Value Computed by CMake
-turtlebot_moveGoal_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/turtlebot_moveGoal
+turtlebot_moveGoal_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/Assignment 3/turtlebot_moveGoal
 
 //Value Computed by CMake
-turtlebot_moveGoal_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/turtlebot_moveGoal
+turtlebot_moveGoal_SOURCE_DIR:STATIC=/home/dylan/catkin_ws/src/Assignment 3/turtlebot_moveGoal
 
 //Value Computed by CMake
 turtlebot_sort_laserscan_BINARY_DIR:STATIC=/home/dylan/catkin_ws/build/turtlebot_sort_laserscan
