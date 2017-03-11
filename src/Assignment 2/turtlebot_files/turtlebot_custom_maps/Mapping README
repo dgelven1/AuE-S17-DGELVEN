@@ -1,0 +1,33 @@
+Mapping A world!
+
+Launch World:
+
+roslaunch turtlebot_gazebo turtlebot_world.launch
+
+or
+
+roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=<full path to .world file>
+
+Start map building:
+
+roslaunch turtlebot_gazebo gmapping_demo.launch
+
+Launch Rviz for mapping:
+
+roslaunch turtlebot_rviz_launchers view_navigation.launch
+
+Note: Change the topic option under local and global map to /map
+
+Launch turtlebot teleop key:
+
+roslaunch turtlebot_teleop keyboard_teleop.launch
+
+
+
+oslaunch turtlebot_gazebo amcl_demo.launch
+
+
+roslaunch turtlebot_gazebo amcl_demo.launch map_file:=<full path to map yaml file>
+
+
+Deliverable for thursday. move to goal and aviod obstacles in path 
